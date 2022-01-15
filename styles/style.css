@@ -234,3 +234,151 @@ footer .about .icon i:hover{
     transition: transform .5s ease;
     color: #E02C6D;
 }
+/* footer part end  */
+
+/* Media query part  */
+
+/* For mobile devices */
+
+@media only screen and (max-width: 767px) {
+    .top-manu{
+        display: block;
+        margin: 35px 99px;
+    }
+    .top-manu .logo{
+        text-align: center;
+    }
+    .top-manu .manu{
+        text-align: center;
+    }
+    .barrer{
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        margin-left: 52px;
+        margin-right: 52px;
+    }
+    .barrer .influencher{
+        text-align: center;
+        width: 80%;
+        height: auto;  
+    }
+    .barrer .influencher h1{
+        font-size: 28px;
+    }
+    .barrer .influencher p {
+        font-size: 14px;
+    }
+    .barrer .influencher-img{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    .barrer .influencher-img img{
+        width: 70%;
+        height: auto;
+    }
+    .popular{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-button{
+        margin-right: 50px;
+    }
+    .more-info{
+        display: block;
+        margin-left: 52px;
+        margin-right: 52px;
+        width: 100%;
+        height: auto;
+    }
+    .more-info .photo{
+        width: 80%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .more-det{
+        margin-top: 30px;
+        width: 80%;
+        text-align: center;
+    }
+    footer{
+        width: 100%;
+    }
+}
+
+
+/* For tab */
+@media only screen and (min-width:768px) and (max-width:1028px){
+    .top-manu {
+        display: block;
+        margin: 35px 99px;
+    }
+
+    .top-manu .logo {
+        text-align: center;
+    }
+
+    .top-manu .manu {
+        text-align: center;
+    }
+    .barrer {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        margin-left: 52px;
+        margin-right: 52px;
+    }
+
+    .barrer .influencher {
+        text-align: center;
+        width: 80%;
+        height: auto;
+    }
+    .barrer .influencher-img {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .barrer .influencher-img img {
+        width: 70%;
+        height: auto;
+    }
+    .popular {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .collection{
+        margin: 0 10px;
+    }
+    .footer-button {
+        margin-right: 70px;
+    }
+    .more-info {
+        display: block;
+        margin-left: 52px;
+        margin-right: 52px;
+        width: 100%;
+        height: auto;
+    }
+
+    .more-info .photo {
+        width: 80%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .more-det {
+        margin-top: 30px;
+        width: 80%;
+        text-align: center;
+    }
+
+    footer {
+        width: 100%;
+    }
+    }
+}
