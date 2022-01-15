@@ -202,6 +202,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 footer .about{
     color: #ffffff;
@@ -251,11 +252,15 @@ footer .about .icon i:hover{
     }
     .top-manu .manu{
         text-align: center;
+        
+    }
+    .top-manu .manu a{
+        display: block;
     }
     .barrer{
         box-sizing: border-box;
         display: block;
-        width: 100%;
+        width: 90%;
         margin-left: 52px;
         margin-right: 52px;
     }
@@ -274,6 +279,7 @@ footer .about .icon i:hover{
         width: 80%;
         display: flex;
         justify-content: center;
+        margin-right: 0;
     }
     .barrer .influencher-img img{
         width: 70%;
@@ -290,7 +296,7 @@ footer .about .icon i:hover{
         display: block;
         margin-left: 52px;
         margin-right: 52px;
-        width: 100%;
+        width: 90%;
         height: auto;
     }
     .more-info .photo{
@@ -298,6 +304,10 @@ footer .about .icon i:hover{
         height: auto;
         display: flex;
         justify-content: center;
+    }
+    .more-info .photo img{
+        width: 70%;
+        height: auto;
     }
     .more-det{
         margin-top: 30px;
@@ -337,11 +347,7 @@ footer .about .icon i:hover{
         width: 80%;
         height: auto;
     }
-    .barrer .influencher-img {
-        width: 80%;
-        display: flex;
-        justify-content: center;
-    }
+    
 
     .barrer .influencher-img img {
         width: 70%;
@@ -359,10 +365,10 @@ footer .about .icon i:hover{
     }
     .more-info {
         display: block;
-        margin-left: 52px;
-        margin-right: 52px;
         width: 100%;
-        height: auto;
+        margin-left: 2px;
+        margin-right: 52px;
+        
     }
 
     .more-info .photo {
@@ -371,7 +377,10 @@ footer .about .icon i:hover{
         display: flex;
         justify-content: center;
     }
-
+    .more-info .photo img{
+        width: 70%;
+        height: auto;
+    }
     .more-det {
         margin-top: 30px;
         width: 80%;
@@ -380,6 +389,5 @@ footer .about .icon i:hover{
 
     footer {
         width: 100%;
-    }
     }
 }
