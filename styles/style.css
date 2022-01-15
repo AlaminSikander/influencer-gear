@@ -97,6 +97,7 @@ body{
     background-color: #ffffff;
     overflow: hidden;
     box-shadow: 5px 5px 50px rgb(129, 129, 129);
+    margin: 0 10px;
 }
 .collection-img img{
     width: 300px;
