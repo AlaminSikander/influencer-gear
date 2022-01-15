@@ -79,6 +79,7 @@ body{
 /* popular collection path start */
 
 .popular{
+    box-sizing: border-box;
     margin-left: 196px;
     margin-right: 196px;
     display: grid;
@@ -92,6 +93,7 @@ body{
 }
 .collection{
     border-radius: 10px;
+    
     height: 476px;
     width: 329px;
     background-color: #ffffff;
@@ -151,7 +153,7 @@ body{
     display: flex;
     justify-content: end;
     margin-top: 50px;
-    margin-right: 380px;
+    margin-right: 10%;
 }
 .footer-button a{
     text-decoration: none;
@@ -356,6 +358,7 @@ footer .about .icon i:hover{
     .popular {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        
     }
     .collection{
         margin: 0 10px;
